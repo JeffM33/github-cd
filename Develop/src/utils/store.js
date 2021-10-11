@@ -3,4 +3,4 @@ import  {reducers} from './reducers';
 
 
 
-export default function createStore (reducers);
+export default createStore (reducers);
