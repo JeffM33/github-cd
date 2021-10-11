@@ -1,7 +1,9 @@
 import React, { useContext } from 'react';
-
+import { Provider } from 'react-redux';
+import { store } from './store';
 // Create our car context using React.CreateContext()
 export const CarContext = React.createContext();
+
 
 // Create a custom hook that allows easy access to our CarContext values
 export const useCar = () => useContext(CarContext);
